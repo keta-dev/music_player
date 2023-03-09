@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="15px" viewBox="0 0 14 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>71B625C2-D253-43A9-9562-D7D919D12D47</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Music-Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Music_home" transform="translate(-913.000000, -25.000000)" fill="#c9c9c9">
+            <g id="头部" transform="translate(0.000000, 10.000000)">
+                <g id="search-center" transform="translate(780.000000, 7.000000)">
+                    <g id="Search" transform="translate(133.000000, 6.000000)">
+                        <path d="M11.1769253,12.6412156 L14,15.4670636 L13.4355501,16.0323876 L10.6124754,13.2065397 L11.1769253,12.6412156 Z M6,2 C9.3,2 12,4.7 12,8 C12,11.3 9.3,14 6,14 C2.7,14 -1.13686838e-13,11.3 -1.13686838e-13,8 C-1.13686838e-13,4.7 2.7,2 6,2 Z M6,2.8 C3.13333333,2.8 0.8,5.13333333 0.8,8 C0.8,10.8666667 3.13333333,13.2 6,13.2 C8.86666667,13.2 11.2,10.8666667 11.2,8 C11.2,5.13333333 8.86666667,2.8 6,2.8 Z" id="btn_Search"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

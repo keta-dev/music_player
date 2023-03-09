@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>A138765A-C6CF-4D71-B2D5-AE9B7E754202</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="btn/share">
+            <circle id="椭圆形" stroke="#FFFFFF" cx="4" cy="10" r="2.5"></circle>
+            <circle id="椭圆形备份" stroke="#FFFFFF" cx="16" cy="3" r="2.5"></circle>
+            <circle id="椭圆形备份-2" stroke="#FFFFFF" cx="16" cy="17" r="2.5"></circle>
+            <path d="M10.0131397,2 C10.2892821,2 10.5131397,2.22385763 10.5131397,2.5 L10.5131397,10.5 C10.5131397,10.7761424 10.2892821,11 10.0131397,11 C9.73699735,11 9.51313972,10.7761424 9.51313972,10.5 L9.51313972,2.5 C9.51313972,2.22385763 9.73699735,2 10.0131397,2 Z" id="矩形" fill="#FFFFFF" transform="translate(10.013140, 6.500000) rotate(-300.000000) translate(-10.013140, -6.500000) "></path>
+            <path d="M10.0131397,9 C10.2892821,9 10.5131397,9.22385763 10.5131397,9.5 L10.5131397,17.5 C10.5131397,17.7761424 10.2892821,18 10.0131397,18 C9.73699735,18 9.51313972,17.7761424 9.51313972,17.5 L9.51313972,9.5 C9.51313972,9.22385763 9.73699735,9 10.0131397,9 Z" id="矩形" fill="#FFFFFF" transform="translate(10.013140, 13.500000) scale(1, -1) rotate(-300.000000) translate(-10.013140, -13.500000) "></path>
+        </g>
+    </g>
+</svg>

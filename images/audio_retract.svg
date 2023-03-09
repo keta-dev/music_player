@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="8px" viewBox="0 0 13 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>C31B8E35-661C-4D2A-AD4D-CE097D02BD90</title>
+    <desc>Created with Sketch.</desc>
+    <g id="控件" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="player-bar备份" transform="translate(-1421.000000, -43.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="Disclosure" transform="translate(1421.000000, 43.000000)">
+                <path d="M3.96289062,9.90332031 C4.22851562,9.90332031 4.45263672,9.81201172 4.63525391,9.62939453 L9.60742188,4.70703125 C9.83984375,4.48291016 9.94775391,4.2421875 9.94775391,3.95166016 C9.94775391,3.66113281 9.83984375,3.41210938 9.61572266,3.19628906 L4.63525391,-1.72607422 C4.45263672,-1.90869141 4.22851562,-2 3.96289062,-2 C3.43164062,-2 3,-1.57666016 3,-1.04541016 C3,-0.779785156 3.10791016,-0.5390625 3.29882812,-0.33984375 L7.66503906,3.95996094 L3.29882812,8.25146484 C3.10791016,8.44238281 3,8.68310547 3,8.94873047 C3,9.47998047 3.43164062,9.90332031 3.96289062,9.90332031 Z" id="btn_player_arr-up_pre" transform="translate(6.473877, 3.951660) rotate(90.000000) translate(-6.473877, -3.951660) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

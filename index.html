@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <title>Music | Player</title>
+</head>
+
+<body class="text-white body">
+  <main>
+    <nav class="navbar navbar-expand-lg sticky-top">
+      <div class="container-fluid inner-container">
+        <img src="images/logo.svg" alt="logo" class="logo">
+        <div class="d-flex align-items-center justify-content-center">
+          <input class="form-control search" type="search" placeholder="Search">
+          <div class="play_logo d-flex gap-3">
+            <img src="images/appStore.svg" alt="appStore">
+            <img src="images/playStore.svg" alt="google playStore">
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid">
+      <div class="row ">
+        <div class="col-2 p-0">
+          <div class="sidebar d-lg-block d-md-block d-sm-none overflow-hidden overflow-y-auto">
+            <div class="d-flex align-items-center flex-column">
+              <div>
+                <div class="user d-flex justify-content-center align-items-center mt-3">
+                  <button class="border-0 rounded-circle user-btn" style="width: 42px; height: 42px;"></button>
+                  <strong>
+                    <button class="border-0 btn btn-dark">Log in
+                      / Sign up</button>
+                  </strong>
+                </div>
+                <nav class="mt-4 px-2">
+                  <h6 class="text-capitalize bold-text">Music</h6>
+                  <ol class="list-unstyled mt-4 d-flex flex-column">
+                    <li class="mb-3 opacity-50"><img src="images/headphone.svg" alt="home" id="home" class="home me-3"
+                        style="width: 20px;">Home</li>
+                    <li class="mb-3 opacity-50"><img src="images/fire.svg" alt="home" class="home me-3">Trending</li>
+                    <li class="mb-3 opacity-50"><img src="images/new.svg" alt="home" class="home me-3">New</li>
+                    <li class="mb-3 opacity-50"><img src="images/artists.svg" alt="home" class="home me-3">Artists</li>
+                    <li class="mb-3 opacity-50"><img src="images/video.svg" alt="home" class="home me-3">Video</li>
+                    <li class="mb-3 opacity-50"><img src="images/playlists.svg" alt="home" class="home me-3">Playlist</li>
+                    <li class="mb-3 opacity-50"><img src="images/charts.svg" alt="home" class="home me-3">Charts</li>
+                    <li class="mb-3 opacity-50"><img src="images/genres.svg" alt="home" class="home me-3">Genres</li>
+                  </ol>
+                </nav>
+                <div class="mt-4 px-2">
+                  <h6 class="text-capitalize bold-text">Library</h6>
+                  <ol class="list-unstyled mt-4 d-flex flex-column">
+                    <li class="mb-3 opacity-50"><img src="images/addAPlaylist.svg" alt="home" class="home me-3">Add Playlist</li>
+                    <li class="mb-3 opacity-50"><img src="images/favourites.svg" alt="home" class="home me-3">Favourites</li>
+                    <li class="mb-3 opacity-50"><img src="images/myPlaylist.svg" alt="home" class="home me-3">My Playlists</li>
+                  </ol>
+                </div>
+                <div class="mt-4 px-2">
+                  <h6 class="text-capitalize bold-text">Buzz</h6>
+                  <ol class="list-unstyled mt-4 d-flex flex-column">
+                    <li class="mb-3 opacity-50"><img src="images/recommended.svg" alt="home" class="home me-3">Recommended</li>
+                  </ol>
+                </div>
+                <div class="mt-4 px-2">
+                  <h6 class="text-capitalize bold-text">Podcast</h6>
+                  <ol class="list-unstyled mt-4 d-flex flex-column">
+                    <li class="mb-3 opacity-50"><img src="images/podcastRecommended.svg" alt="home" class="home me-3">Recommended</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-10 bg-style">
+          <div class="content overflow-hidden overflow-y-auto">
+            <nav class="d-flex align-items-center gap-5">
+              <p class="text fs-5">Music</p>
+              <p style="color: #ffffff80;">Buzz</p>
+            </nav>
+            <div class="mt-3">
+              <p style="font-size: 21px;">Songs</p>
+              <ol style="list-style-type: none; padding: 0;">
+                <li>
+                  <div class="d-flex py-3 px-3">
+                    <div style="width: 40px;">#</div>
+                    <div class="title" style="flex: 1;">Title</div>
+                    <div class="art-title">Artist</div>
+                    <div class="img-container"></div>
+                    <div class="time">Time</div>
+                  </div>
+                </li>
+                <li>
+                  <div class="d-flex py-3 px-3">
+                    <div class="num">1</div>
+                    <div class="title">So Sick</div>
+                    <div class="artist">Neyo</div>
+                    <div class="img-container">
+                      <img src="images/btn_addPlaylist.svg" alt="add btn">
+                      <img src="images/btn_share.svg" alt="share btn">
+                      <img src="images/btn_download.svg" alt="download btn">
+                    </div>
+                    <div class="time-stamp">03:27</div>
+                  </div>
+                </li>
+                <li>
+                  <div class="d-flex py-3 px-3">
+                    <div class="num">2</div>
+                    <div class="title">Tobechukwu</div>
+                    <div class="artist">Nathaniel Bassey</div>
+                    <div class="img-container">
+                      <img src="images/btn_addPlaylist.svg" alt="add btn">
+                      <img src="images/btn_share.svg" alt="share btn">
+                      <img src="images/btn_download.svg" alt="download btn">
+                    </div>
+                    <div class="time-stamp">10:27</div>
+                  </div>
+                </li>
+                <li>
+                  <div class="d-flex py-3 px-3">
+                    <div class="num">3</div>
+                    <div class="title">Obinasom</div>
+                    <div class="artist">Mercy Chinwo</div>
+                    <div class="img-container">
+                      <img src="images/btn_addPlaylist.svg" alt="add btn">
+                      <img src="images/btn_share.svg" alt="share btn">
+                      <img src="images/btn_download.svg" alt="download btn">
+                    </div>
+                    <div class="time-stamp">03:17</div>
+                  </div>
+                </li>
+                <li>
+                  <div class="d-flex py-3 px-3">
+                    <div class="num">4</div>
+                    <div class="title">Tobechukwu</div>
+                    <div class="artist">Nathaniel Bassey</div>
+                    <div class="img-container">
+                      <img src="images/btn_addPlaylist.svg" alt="add btn">
+                      <img src="images/btn_share.svg" alt="share btn">
+                      <img src="images/btn_download.svg" alt="download btn">
+                    </div>
+                    <div class="time-stamp">10:27</div>
+                  </div>
+                </li>
+                <li>
+                  <div class="d-flex py-3 px-3">
+                    <div class="num">5</div>
+                    <div class="title">So Sick</div>
+                    <div class="artist">Neyo</div>
+                    <div class="img-container">
+                      <img src="images/btn_addPlaylist.svg" alt="add btn">
+                      <img src="images/btn_share.svg" alt="share btn">
+                      <img src="images/btn_download.svg" alt="download btn">
+                    </div>
+                    <div class="time-stamp">03:27</div>
+                  </div>
+                </li>
+              </ol>
+            </div>
+            <div class="mt-5">
+              <button class="m-auto d-block rounded-pill border-0 more-btn">More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  </main>
+  <div class="sticky-bottom bg-black" style="height: 80px;">
+    <div class="indicator">
+      <div class="indicate w-25 h-100 d-flex align-items-center justify-content-end">
+        <div class="dot position-relative"></div>
+      </div>
+    </div>
+    <div class="d-flex justify-content-between align-items-center text-small">
+      <div class="footer d-flex gap-3 ps-5 pt-2">
+        <img src="images/hero-image.jpeg" alt="person" class="rounded-4">
+        <div class="">
+          <p class="margin fs-6">Nakupenda</p>
+          <p class="margins">Chike</p>
+        </div>
+      </div>
+      <div class="d-flex gap-4 box-2">
+        <img src="images/left-btn.svg" alt="arrow left">
+        <img src="images/playbtn.svg" alt="play button">
+        <img src="images/right-btn.svg" alt="">
+      </div>
+      <div class="d-flex gap-3 box-3 justify-content-end align-items-center">
+        <img src="images/playMode_loop.svg" alt="">
+        <img src="images/btn_download.svg" alt="download btn">
+        <img src="images/btn_share.svg" alt="share btn">
+        <img src="images/btn_favorite.svg" alt="home" class="home">
+        <img src="images/btn_playlist.svg" alt="">
+        <img src="images/btn_addPlaylist.svg" alt="add btn">
+  
+        <p class="time-text ms-4 align-self-start pt-2">00:00 / 02:23</p>
+        <div class="d-flex align-items-center px-2" style="background-color: #222; height: 78px;">
+          <img src="images/audio_retract.svg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/fontawesome.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

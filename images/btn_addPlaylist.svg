@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>803D729A-968F-4BA3-BCCA-9BCC9D526496</title>
+    <desc>Created with Sketch.</desc>
+    <g id="控件" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="play-bar_nar" transform="translate(-1269.000000, -36.000000)">
+            <g id="player-bar">
+                <g id="play-bar">
+                    <g id="btn_add-playlist" transform="translate(1269.000000, 36.000000)">
+                        <path d="M10,4 C10.2761424,4 10.5,4.22385763 10.5,4.5 L10.5,9.5 L15.5,9.5 C15.7761424,9.5 16,9.72385763 16,10 C16,10.2761424 15.7761424,10.5 15.5,10.5 L10.5,10.5 L10.5,15.5 C10.5,15.7761424 10.2761424,16 10,16 C9.72385763,16 9.5,15.7761424 9.5,15.5 L9.5,10.5 L4.5,10.5 C4.22385763,10.5 4,10.2761424 4,10 C4,9.72385763 4.22385763,9.5 4.5,9.5 L9.5,9.5 L9.5,4.5 C9.5,4.22385763 9.72385763,4 10,4 Z" id="Icon" fill="#FFFFFF" opacity="0.8"></path>
+                        <rect id="矩形" stroke="#FFFFFF" x="0.5" y="0.5" width="19" height="19" rx="2"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
