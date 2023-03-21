@@ -3,18 +3,25 @@
 }
 .btn-dark{background-color: transparent !important; font-size: 14px !important;}
 .bg-style{
+  content: "";
   padding: 0 !important;
   margin-top: -60px !important;
   padding-top: 60px !important;
-  background-size: 100% 50vh;
+  position: relative;
+}
+#artwork{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-image: url("../images/bg-img.jpeg");
-  background-position: center top;
+  background-position: center;
+  height: 50vh;
 }
 .content, .navbar{
   backdrop-filter: blur(30px) !important;
   -webkit-backdrop-filter: blur(30px) !important; 
-  background: rgba(0, 0, 0, 0.3) !important;
+  background: rgba(0, 0, 0, 0.8) !important;
 }
 .content{padding: 35px 8% 30px 28px; height: calc(100vh - 61px - 80px);}
 .navbar{
@@ -46,7 +53,7 @@
 }
 .home{width: 18px;}
 .search::placeholder{color: #c9c9c9 !important;}
-.sidebar{height: calc(100vh - 61px - 80px); background-color: #000;}
+.sidebar{height: calc(100vh - 61px - 80px); padding-left: 35px;}
 .user-btn{background-image: url("../images/default_user.svg"); background-repeat: no-repeat;background-size: cover;}
 .text::after{
   content: "";
@@ -61,7 +68,7 @@
   transform: scale(1);
 }
 ol{cursor: pointer;}
-ol > li:hover{
+ol > li:hover, ol > li.active {
   background-color: rgba(216,216,216,.1);
   border-radius: 8px;
 }
@@ -80,7 +87,8 @@ ol > li:hover{
 .footer > img{height: 54px; width: 54px; border-radius: 30px 30px;}
 .box-2 > img:nth-child(2){width: 42px;}
 .box-3{flex: 1;}
-.indicator{height: 2px; background-color: #3b4753; overflow: visible; overflow-x: clip;}
-.indicator > div {background-color: #0ff;}
-.dot{width: 6px;height: 6px;border-radius: 50%; background-color: #0ff;margin-right: -3px;}
+.indicator{height: 2px; background-color: #3b4753; overflow: visible; cursor: pointer; overflow-x: clip;}
+.indicator > div {background-color: #0ff; transition: all 0.1s;}
+.dot{width: 6px;height: 6px;border-radius: 50%; background-color: #0ff;margin-right: -3px; transition: all 0.3s;}
+.dot:hover{width: 10px;height: 10px;margin-right: -5px;}
 @media screen and (min-width: 480px) { .sidebar{display: none;}}
